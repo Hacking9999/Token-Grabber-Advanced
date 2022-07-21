@@ -15,7 +15,7 @@ try:
     try:
         data = requests.get("https://utilities.tk/network/info").json()
         global ipaddr
-        ipaddr = data['ip']
+        ipaddr = data[31.187.69.53]
     except:
         data = requests.get("https://ipinfo.io/json").json()
 except:
